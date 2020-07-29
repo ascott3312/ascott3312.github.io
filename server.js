@@ -20,7 +20,7 @@ app.use(errorHandler);
 
 // Route Handlers
 function greetHandler(request, response) {
-  response.status(200).send('Hello!');
+  response.status(200).send('Hello World!');
 }
 
 function dataHandler(request, response) {
